@@ -106,7 +106,8 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "哈尔滨工业大学",
+      schoolName: " 哈尔滨工业大学 ",
+	  
       logo: require("./assets/images/harbin-institute-of-technology-logo.png"),
       subHeader: "Master of Information and Communication Engineering",
       duration: "September 2026 - June 2028",
@@ -116,7 +117,8 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "东北大学",
+      schoolName: " 东北大学 ",
+	  
       logo: require("./assets/images/Northeastern-logo.png"),
       subHeader: "Bachelor of Information and Communication Engineering",
       duration: "September 2022 - June 2026",
@@ -151,7 +153,7 @@ const techStack = {
 const workExperiences = {
   title: "Work experience",
   subtitle: "希望贵司能给我一个机会哇",
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
   ]
 };
