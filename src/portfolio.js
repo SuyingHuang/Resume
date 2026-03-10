@@ -239,37 +239,19 @@ const achievementSection = {
         {
           name: "Award Letter",
           url: "https://www.comap-math.org/mcm/2025Certs/2512459.pdf"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "National College Student Electronic Design Competition",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "全国大学生电子设计竞赛是由教育部和工业和信息化部共同发起的大学生学科竞赛，旨在推动高等学校信息与电子类学科课程体系和内容的改革。",
+      image: require("./assets/images/diansai.png"),
+      imageAlt: "National College Student Electronic Design Competition Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "My team achievement",
+          url: "https://github.com/SuyingHuang/2025-National-College-Student-Electronic-Design-Competition.git"
         }
       ]
     }
