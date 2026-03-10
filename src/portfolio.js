@@ -65,12 +65,12 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "C",
+      skillName: "C/C++",
       fontAwesomeClassname: "fab fa-c"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "高等数学",
+      fontAwesomeClassname: "fa-solid fa-calculator"
     },
     {
       skillName: "sass",
