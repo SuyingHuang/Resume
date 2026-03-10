@@ -23,10 +23,10 @@ const greeting = {
   username: "黄鹏",
   title: "你好，我是黄鹏",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "我是一个热爱新技术的在读大学生。本科专业为通信工程，我现在的研究兴趣是机器学习/计算机网络。"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -42,21 +42,21 @@ const socialMediaLinks = {
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "我能做些什么",
+  subTitle: "",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ 自诩有良好的学习能力和抓重点能力，可以在短期内快速上手一个项目"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ 思维活泛，毕设研究复现他人论文时常能向老师汇报我的新思考，新观点"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ 善于与他人效率地沟通并解决问题"
     )
   ],
 
@@ -65,8 +65,8 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "C",
+      fontAwesomeClassname: "fab fa-c"
     },
     {
       skillName: "css3",
