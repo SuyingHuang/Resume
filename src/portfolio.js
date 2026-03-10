@@ -69,52 +69,32 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-c"
     },
     {
-      skillName: "高等数学",
+      skillName: "数学（含高数、线代、数值分析）",
       fontAwesomeClassname: "fa-solid fa-calculator"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "数字信号处理",
+      fontAwesomeClassname: "fa-solid fa-wave-square"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "计算机网络",
+      fontAwesomeClassname: "fa-solid fa-computer"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "机器学习",
+      fontAwesomeClassname: "fa-brands fa-openai"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "微控制器",
+      fontAwesomeClassname: "fa-solid fa-microchip"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "MATLAB",
+      fontAwesomeClassname: "fa-solid fa-m"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "pytorch",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +106,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "哈尔滨工业大学",
+      logo: require("./assets/images/harbin-institute-of-technology-logo.png"),
+      subHeader: "Master of Information and Communication Engineering",
+      duration: "September 2026 - June 2028",
+      desc: "Not known for the time being",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+	  
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "东北大学",
+      logo: require("./assets/images/Northeastern-logo.png"),
+      subHeader: "Bachelor of Information and Communication Engineering",
+      duration: "September 2022 - June 2026",
+      desc: "Ranked top 10% in the program.Outstanding student cadres.School-level scholarships",
     }
   ]
 };
@@ -171,7 +149,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
